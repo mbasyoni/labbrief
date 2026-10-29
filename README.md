@@ -27,6 +27,20 @@ Use the approved Sandbox application and a separate Sandbox Personal buyer. Do n
 
 `LABBRIEF_AI_MODE=local` is the default. Optional `external` mode uses an explicitly configured compatible endpoint (`LABBRIEF_AI_URL`, `LABBRIEF_AI_MODEL`, optional `LABBRIEF_AI_KEY`) and sends the synthetic request there. Keep confidential data out of this prototype.
 
+## Judge setup: use your own free PayPal Sandbox
+
+The local classifier and scope-review UI run without payment credentials. To evaluate checkout and delivery, use your own PayPal Developer Sandbox; this repository does not distribute the author's account credentials.
+
+1. Sign in to the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/) with your own developer account. Select **Sandbox**, then **Apps & Credentials**. Select an existing Sandbox REST app, or create a **Merchant** app associated with your Sandbox Business account. Obtain that app's Sandbox Client ID and Client Secret. Do not select Live credentials. Follow PayPal's [REST getting-started guide](https://developer.paypal.com/api/get-started/).
+2. Under **Testing Tools → Sandbox Accounts**, locate a separate **Personal** buyer account. Use **View/Edit Account** to obtain its generated test login. If needed, create a Personal test account; keep the app's Business merchant and Personal buyer separate. PayPal documents this in [Sandbox accounts](https://developer.paypal.com/sandbox-testing/accounts).
+3. Configure the local server process with `PAYPAL_SANDBOX_CLIENT_ID` and `PAYPAL_SANDBOX_CLIENT_SECRET` through your secure environment-variable manager or IDE secret configuration. Never commit credentials, paste them into command history, or include them in screenshots/logs. The app does not load `.env` automatically. Restart the server after configuration. Keep the default `LABBRIEF_AI_MODE=local`.
+4. Follow **Run locally** above and open `http://127.0.0.1:8769`. Enter only a synthetic request, select a catalog deliverable, generate/review the scope and approve the displayed quote. A manifest brief uses USD 5.00 in **test funds**, not real money.
+5. Create a Sandbox checkout. In the PayPal approval flow, sign in as your separate **Sandbox Personal buyer**, not the merchant and not a real-money buyer. Confirm that the provider page is on `sandbox.paypal.com`. Do not enter a real card. Return to the original LabBrief tab after approval.
+6. Use **Capture and verify**. The server independently checks provider status, reference and exact amount before enabling the intake ZIP. Download and inspect the bundle; an unapproved, mismatched or incomplete payment must not unlock delivery. Missing Sandbox configuration intentionally fails closed.
+7. Stop the local server when finished and remove its temporary credential configuration. Keep Sandbox and local operation records private. Do not reuse the author's historical operation or attempt to recapture it.
+
+PayPal account availability can depend on location. If obtaining your own Sandbox access is blocked, use the official developer support path; do not substitute live credentials. The included automated payment tests use explicit fake providers and are not an alternative claim of real-provider acceptance.
+
 ## Workflow and delivery
 
 1. Enter a synthetic request and select catalog services.
