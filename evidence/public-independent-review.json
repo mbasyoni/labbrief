@@ -1,0 +1,49 @@
+{
+  "recorded_at_utc": "2026-10-29T22:43:27.897564+00:00",
+  "status": "PASS",
+  "checks": {
+    "accepted_private_27_manifest_files_unchanged": true,
+    "private_backend_methods_absent": true,
+    "private_assets_launchers_fixtures_absent": true,
+    "private_ui_handlers_and_panels_absent": true,
+    "pre_capture_shared_identity_validator_called": true,
+    "post_capture_shared_identity_validator_used": true,
+    "backend_test_log_success": true,
+    "independent_in_process_guard_tests_passed": true,
+    "actual_identifier_and_sensitive_literal_scan_passed": true,
+    "historical_acceptance_is_not_current_build_payment_claim": true
+  },
+  "blockers": [],
+  "accepted_private_source_differences": [],
+  "independent_tests": {
+    "test_cases": 3,
+    "adversarial_subcases": 42,
+    "failures": 0,
+    "errors": 0,
+    "transport": "explicit in-process fakes only"
+  },
+  "root_backend_evidence": {
+    "tests": 71,
+    "scope": "reported candidate log reviewed; not independently rerun HTTP suite"
+  },
+  "limits": [
+    "No new genuine provider acceptance for the changed public candidate.",
+    "Review did not publish, deploy, access provider/network/browser, or inspect actual operation database.",
+    "Exclude __pycache__ and runtime artifacts from final package.",
+    "Actual-screen demo and final ZIP bytes require their own final packaging checks."
+  ],
+  "private_identifiers_disclosed": false,
+  "reviewed_sha256": {
+    "app.py": "08b8b0392ebd5859456f55367ed4588120174f8f8173dd58bb24f969cf91dce6",
+    "static/app.js": "a9b216c909c2be349c5782650f52de9201e3ecc8e9aae22ce31c513c663a8e55",
+    "static/index.html": "319d62f388ccf53b26723f99aec869559903ad828c7d20d077c4d24b89926d52",
+    "tests/test_app.py": "9ffd2a4a2390de252f27dc74e0c23e093a4aa2e13deec770d2186080287ddeb6",
+    "tests/test_public_surface.py": "b5cb2842451feb7643cc3383b6b5ba6aa4a6ddb4d1d5a91098205472a8be95a0",
+    "tests/test_benchmark_cli.py": "abac17d9d7824f47e249aff02cd25b6161582d1de89ffda17ae624a5a8c72e01",
+    "benchmark_local_ml.py": "cc92b86f085be200bae98b0f24348b97e97043fcc8c68574e3823350cc118d4f",
+    "README.md": "f7ba665cf2912f3b93952eb499589f0b69138137264cc97650bac9d7c948b0b2",
+    "PROVENANCE.md": "d6c9a264895683bda76ac26a5e964b5d1f6f09ad53c4315b874f25742e1f63f3",
+    "MODEL_CARD.md": "a5dbcb6baea02dddf620308b53e0e4bbf9f61df8c7e9e8f9ebc05b2eab842f30",
+    "review/DEMO_NOTES.md": "665088da6c37f74241b180c08a1fd5da8ffe70020b7d9edbfd8f06ff1eddaab4"
+  }
+}

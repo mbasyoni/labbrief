@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-29T22:45:58.439635+00:00",
+  "scope": "Real local candidate HTTP and local classifier; no provider configured. Not screen footage or real-provider payment acceptance.",
+  "local_ai_ready": true,
+  "provider_ready": false,
+  "scope_generation": "REVIEW",
+  "quoted_request_matches": true,
+  "explicit_approval": "APPROVED",
+  "cents": 500,
+  "currency": "USD",
+  "checkout_without_provider_http_status": 503,
+  "bundle_stays_locked_http_status": 403,
+  "removed_private_paths": {
+    "/setup": 404,
+    "/setup.js": 404,
+    "/api/private-continuation/status": 404,
+    "/api/private-sandbox-setup/configure": 404
+  },
+  "provider_network_calls": 0,
+  "cookies_session_tokens_and_order_refs": "Not persisted in evidence."
+}

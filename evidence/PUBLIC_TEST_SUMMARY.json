@@ -1,0 +1,40 @@
+{
+  "suite_count": 71,
+  "suite_breakdown": {
+    "app": 51,
+    "local_ml": 12,
+    "public_surface": 7,
+    "clean_checkout_benchmark": 1
+  },
+  "pre_capture_review_gap": "FIXED_IN_CANDIDATE",
+  "shared_validation": [
+    "Provider order ID matches stored ID",
+    "CAPTURE intent",
+    "APPROVED or COMPLETED status",
+    "Exactly one purchase unit",
+    "reference_id matches original application order",
+    "custom_id matches original application order",
+    "Finite exact amount",
+    "USD currency"
+  ],
+  "guard_tests": 3,
+  "adversarial_subcases": 42,
+  "assertions": {
+    "pre_capture_mismatch_capture_calls": 0,
+    "malformed_completed_reconciliation_capture_calls": 0,
+    "post_capture_get_mismatch_cannot_mark_paid": true
+  },
+  "actual_wrong_charge_observed_or_claimed": false,
+  "private_routes_removed_not_merely_allowlisted": true,
+  "private_arming_flags_rejected": true,
+  "no_candidate_live_payment_acceptance_claim": true,
+  "frontend_static_checks": {
+    "javascript_syntax": "PASS",
+    "dom_id_references": 21,
+    "all_references_exist": true,
+    "local_markdown_links": 6,
+    "all_links_resolve": true,
+    "private_ui_handlers_absent": true,
+    "actual_screen_capture": "Blocked by lockedMac; no visual/video acceptance claimed."
+  }
+}

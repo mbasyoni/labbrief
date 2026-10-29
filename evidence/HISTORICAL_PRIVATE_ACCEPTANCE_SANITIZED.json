@@ -1,0 +1,16 @@
+{
+  "record_type": "HISTORICAL_PRIVATE_SANDBOX_ACCEPTANCE",
+  "recorded_test_date": "2026-10-29",
+  "build_scope": "Accepted private build only; not this changed public candidate.",
+  "provider": "PayPal Sandbox",
+  "result": "COMPLETED",
+  "sandbox_cents": 500,
+  "currency": "USD",
+  "independent_provider_get_verified": true,
+  "authenticated_zip_download_and_hashes_verified": true,
+  "independent_bundle_checks": 19,
+  "current_public_candidate_live_payment_verified": false,
+  "summary_not_receipt": true,
+  "provider_identifiers_and_account_details": "withheld",
+  "source_evidence": "Sanitized summary of the completed private acceptance; raw receipts kept separate."
+}
