@@ -1,0 +1,29 @@
+{
+  "verified_at_utc": "2026-10-29T22:47:06.635190+00:00",
+  "python": "3.12.12",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "fresh_isolated_venv": true,
+  "all_six_dependency_imports_from_venv": true,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0",
+    "cloudpickle": "3.1.2"
+  },
+  "official_index": "https://pypi.org/simple",
+  "pip_check": "PASS",
+  "regression_tests": {
+    "count": 71,
+    "result": "PASS",
+    "providers": "Explicit fakes only",
+    "log": "public-fresh-install-tests.txt"
+  },
+  "actual_no_provider_http_smoke": "PASS: local scope generation and approval; checkout 503; bundle locked with 403; removed private routes 404.",
+  "macOS_fresh_install_verified": true,
+  "Windows_Linux_fresh_install_verified": false,
+  "candidate_real_provider_payment_verified": false,
+  "new_payment_or_publication_performed": false
+}
