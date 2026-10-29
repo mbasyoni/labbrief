@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "status": "Candidate only; no publication",
+  "members_excluding_this_manifest": {
+    "LICENSE": {
+      "bytes": 1078,
+      "sha256": "b1641151585762cab7efc5aa4d4d4bf441f20565f9a8ca9d5557f260d3238f13"
+    },
+    "MODEL_CARD.md": {
+      "bytes": 2556,
+      "sha256": "a5dbcb6baea02dddf620308b53e0e4bbf9f61df8c7e9e8f9ebc05b2eab842f30"
+    },
+    "PROVENANCE.md": {
+      "bytes": 1854,
+      "sha256": "d6c9a264895683bda76ac26a5e964b5d1f6f09ad53c4315b874f25742e1f63f3"
+    },
+    "PUBLIC_CANDIDATE_MANIFEST.json": {
+      "bytes": 1748,
+      "sha256": "c11a2a708d988474fad1f803b867f6e28d1543477aa2f94311e13b146ccb8a5e"
+    },
+    "README.md": {
+      "bytes": 5336,
+      "sha256": "f7ba665cf2912f3b93952eb499589f0b69138137264cc97650bac9d7c948b0b2"
+    },
+    "SOURCE_MANIFEST.json": {
+      "bytes": 3852,
+      "sha256": "e6ca6ea7b6787264b2608a72123f2008701a0f634c99c7137f252668b651ccb8"
+    },
+    "app.py": {
+      "bytes": 23999,
+      "sha256": "08b8b0392ebd5859456f55367ed4588120174f8f8173dd58bb24f969cf91dce6"
+    },
+    "benchmark_local_ml.py": {
+      "bytes": 1702,
+      "sha256": "cc92b86f085be200bae98b0f24348b97e97043fcc8c68574e3823350cc118d4f"
+    },
+    "demo/SCREEN_CAPTURE_STATUS.json": {
+      "bytes": 605,
+      "sha256": "48095be6d20540819dbaa97282538ec32f37fc7032a34cc8161bed1bfa3e0afc"
+    },
+    "demo/recorded-private-test.html": {
+      "bytes": 1573,
+      "sha256": "845144dd7ffa67c25a4e2ac4128014204aaa0437578b44fac95fcf54a77f9b1f"
+    },
+    "demo/recorded-private-test.json": {
+      "bytes": 678,
+      "sha256": "505091af3aede9b39a04ffe4ce046c6e7478fc0efed2f400df5352427af2daca"
+    },
+    "evidence/FRESH_INSTALL_VERIFICATION.json": {
+      "bytes": 952,
+      "sha256": "23843fb72f3d4aed911cf61e81a567c0e93a1628ad4a2c1f3d2876e37679e41c"
+    },
+    "evidence/HISTORICAL_PRIVATE_ACCEPTANCE_SANITIZED.json": {
+      "bytes": 678,
+      "sha256": "505091af3aede9b39a04ffe4ce046c6e7478fc0efed2f400df5352427af2daca"
+    },
+    "evidence/PUBLIC_TEST_SUMMARY.json": {
+      "bytes": 1271,
+      "sha256": "e39e2052a7934965921f744226c5ded44b1919b7bc4c2382198303b2a3928812"
+    },
+    "evidence/SOURCE_COMPARISON.json": {
+      "bytes": 6962,
+      "sha256": "0b577eda20f0cfa9bea6f586d0127a1450c9f8e1471f2c7ebbb6085dd9be2c60"
+    },
+    "evidence/public-backend-tests.txt": {
+      "bytes": 7608,
+      "sha256": "d5485b6cad51a4650a51547fad3bf0eaa500840fa32b9681e403a1889b7167dd"
+    },
+    "evidence/public-fresh-install-tests.txt": {
+      "bytes": 7608,
+      "sha256": "5026a5a2e06680eb8f2e66610adfc4d07cf454a3b93d1b788beaf2ca5564d342"
+    },
+    "evidence/public-independent-review.json": {
+      "bytes": 2464,
+      "sha256": "57793132504a5ebc03059da1b96511707dacd7fbc9f152d72c5fbb5f29b243e2"
+    },
+    "evidence/public-no-provider-http-smoke.json": {
+      "bytes": 754,
+      "sha256": "b710dcb5c3f7c662e4f35657dd18a42e4a20d7e79da71f0db4862419438d09e8"
+    },
+    "fixtures/synthetic_request.json": {
+      "bytes": 343,
+      "sha256": "40611901b6d3f7110dc967fc3e2ce6d93d3e2b2654f75e7bc94fd0a5767f77d8"
+    },
+    "local_ml.py": {
+      "bytes": 2722,
+      "sha256": "c89d8831f099080c78f3d23e8331d8e6d10637ca8e55890182d911081b933a6f"
+    },
+    "model_data/development_in_domain.json": {
+      "bytes": 1772,
+      "sha256": "343c0a185bbe62a958f6f54347844b5fff581da179fd329813914143848c0fe7"
+    },
+    "model_data/development_ood.json": {
+      "bytes": 937,
+      "sha256": "db57b5c561b6065a5500ebbc3051f2bd796b7c772d9b447d99d4b6b86f1188b4"
+    },
+    "model_data/heldout.json": {
+      "bytes": 1658,
+      "sha256": "da78271fe02f3d1eabfe9d82656e6464d6afa56fe5f1384a592c045bacd98c5f"
+    },
+    "model_data/out_of_domain.json": {
+      "bytes": 1041,
+      "sha256": "a6f68d6f0f898f2f877c80e0826fa94a1226eb76ff7861c992fc1b7f553c61fd"
+    },
+    "model_data/train.json": {
+      "bytes": 5863,
+      "sha256": "e60461bade4098bda8081f97bee007d6c7b063d49a00938424c9362a0182023b"
+    },
+    "requirements.txt": {
+      "bytes": 116,
+      "sha256": "03d7e58430d3fd506ba66bc96fa1f63db9ea699a418725d0daca8cc0213d7a48"
+    },
+    "review/DEMO_NOTES.md": {
+      "bytes": 2423,
+      "sha256": "665088da6c37f74241b180c08a1fd5da8ffe70020b7d9edbfd8f06ff1eddaab4"
+    },
+    "review/FRESH_INSTALL.md": {
+      "bytes": 2388,
+      "sha256": "035bc274427e1ac778a6c8bd6a47a6bcae0b5226259ba68fdd17542ba8e12849"
+    },
+    "review/requirements-verified.txt": {
+      "bytes": 101,
+      "sha256": "bb9945bb3beef1d9665bb109117aac83a8fbbf8f5d6a11af013d1ad2a3250850"
+    },
+    "static/app.js": {
+      "bytes": 4922,
+      "sha256": "a9b216c909c2be349c5782650f52de9201e3ecc8e9aae22ce31c513c663a8e55"
+    },
+    "static/index.html": {
+      "bytes": 4433,
+      "sha256": "319d62f388ccf53b26723f99aec869559903ad828c7d20d077c4d24b89926d52"
+    },
+    "static/style.css": {
+      "bytes": 4826,
+      "sha256": "8ec30ef0e4a515edfce21504c3b6f51b84b78828aa503845be5faeb27ffe5e11"
+    },
+    "tests/test_app.py": {
+      "bytes": 19310,
+      "sha256": "9ffd2a4a2390de252f27dc74e0c23e093a4aa2e13deec770d2186080287ddeb6"
+    },
+    "tests/test_benchmark_cli.py": {
+      "bytes": 1721,
+      "sha256": "abac17d9d7824f47e249aff02cd25b6161582d1de89ffda17ae624a5a8c72e01"
+    },
+    "tests/test_local_ml.py": {
+      "bytes": 3622,
+      "sha256": "a1916a7d0579cc60df7ecd2daf3fb9eb273643baa099fa8ed88520116e958f42"
+    },
+    "tests/test_public_surface.py": {
+      "bytes": 4753,
+      "sha256": "b5cb2842451feb7643cc3383b6b5ba6aa4a6ddb4d1d5a91098205472a8be95a0"
+    }
+  },
+  "actual_screen_video_created": false,
+  "video_blocker": "Mac locked; manual unlock required."
+}

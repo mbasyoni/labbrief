@@ -1,0 +1,3 @@
+# Tested local-classifier runtime. No download/install was performed in this task.
+numpy==2.3.5
+scikit-learn==1.8.0

@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "status": "TESTED_SOURCE_CANDIDATE_NOT_PUBLISHED_OR_DEPLOYED",
+  "runtime_allowlist": [
+    "app.py",
+    "local_ml.py",
+    "requirements.txt",
+    "static/index.html",
+    "static/app.js",
+    "static/style.css",
+    "model_data/train.json",
+    "LICENSE",
+    "README.md",
+    "MODEL_CARD.md",
+    "PROVENANCE.md"
+  ],
+  "development_source_extras": [
+    "benchmark_local_ml.py",
+    "model_data/development_in_domain.json",
+    "model_data/development_ood.json",
+    "model_data/heldout.json",
+    "model_data/out_of_domain.json",
+    "fixtures/synthetic_request.json",
+    "tests/test_app.py",
+    "tests/test_local_ml.py",
+    "tests/test_public_surface.py",
+    "tests/test_benchmark_cli.py"
+  ],
+  "removed_private_surfaces": [
+    "GET /setup",
+    "GET /setup.js",
+    "/api/private-sandbox-setup/*",
+    "/api/private-continuation/*",
+    "Private CLI arming and recovery flags",
+    "Private HTML/JS recovery controls"
+  ],
+  "excluded_private_artifacts": [
+    "Private Mac launchers/controllers",
+    "Private operation/handoff fixtures",
+    "Environment files",
+    "Databases/backups",
+    "Cookies, sessions and capabilities",
+    "Raw receipts and delivery ZIPs",
+    "Runtime/OS logs and private screenshots"
+  ],
+  "validation": "71 fresh-install fake-provider regression tests and actual unconfigured HTTP smoke. No real payment was run on the changed build.",
+  "demo_status": "Actual-screen preparation blocked by locked Mac. A clearly labelled historical-test HTML card and capture plan are included; no video was recorded.",
+  "publication_gate": "Independent review of this candidate and a separate owner release decision remain required. The loopback development server is not production hosting."
+}
