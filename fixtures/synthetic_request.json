@@ -1,0 +1,5 @@
+{
+  "request": "I have 12 synthetic CSV files representing a fictional battery test batch. Prepare a sample manifest, a missing-metadata checklist, and a collaborator handoff plan. The files use placeholder specimen IDs and contain no experimental findings.",
+  "services": ["manifest", "metadata", "handoff"],
+  "synthetic_confirmed": true
+}
