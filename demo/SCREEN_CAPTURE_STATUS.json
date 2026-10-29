@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED_MAC_LOCKED",
+  "recording_started": false,
+  "actual_screen_video_created": false,
+  "tool_observation": "Mac is locked; manual unlock required.",
+  "required_owner_action": "Unlock the Mac manually; leave a clean candidate window available.",
+  "security_settings_changed": false,
+  "screen_or_credential_capture_attempted_after_lock": false,
+  "available_draft": [
+    "recorded-private-test.html",
+    "recorded-private-test.json",
+    "review/DEMO_NOTES.md"
+  ],
+  "historical_card_label": "Recorded private Sandbox test; not a live payment in this altered public candidate."
+}
