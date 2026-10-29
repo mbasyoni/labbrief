@@ -1,0 +1,218 @@
+[
+  {
+    "id": "train-manifest-01",
+    "label": "manifest",
+    "text": "Create a sample manifest linking specimen identifiers to CSV file names.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-02",
+    "label": "manifest",
+    "text": "Organize a list of synthetic samples and their source files.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-03",
+    "label": "manifest",
+    "text": "Build an inventory of specimen IDs and matching data files.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-04",
+    "label": "manifest",
+    "text": "Prepare a manifest table for the fictional sample collection.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-05",
+    "label": "manifest",
+    "text": "Index each sample identifier against its CSV filename.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-06",
+    "label": "manifest",
+    "text": "List all specimens in a file inventory with unique IDs.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-07",
+    "label": "manifest",
+    "text": "Map laboratory sample names to input file paths in a manifest.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-08",
+    "label": "manifest",
+    "text": "Compile a specimen roster from synthetic file names.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-09",
+    "label": "manifest",
+    "text": "Group the sample identifiers into an inventory for this batch.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-10",
+    "label": "manifest",
+    "text": "I need a CSV manifest listing sample codes and filenames.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-11",
+    "label": "manifest",
+    "text": "Prepare an index of the fictional specimens and files.",
+    "synthetic": true
+  },
+  {
+    "id": "train-manifest-12",
+    "label": "manifest",
+    "text": "Create a sample roster linking each ID to its input dataset.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-01",
+    "label": "metadata",
+    "text": "Identify missing metadata fields in these synthetic records.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-02",
+    "label": "metadata",
+    "text": "Prepare a checklist for absent units and measurement timestamps.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-03",
+    "label": "metadata",
+    "text": "Which context fields are missing from the fictional dataset?",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-04",
+    "label": "metadata",
+    "text": "Review metadata completeness including dates and instrument identifiers.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-05",
+    "label": "metadata",
+    "text": "List the missing batch labels and acquisition time fields.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-06",
+    "label": "metadata",
+    "text": "Check whether units and dates have been documented.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-07",
+    "label": "metadata",
+    "text": "Prepare questions about missing experimental context fields.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-08",
+    "label": "metadata",
+    "text": "Build a checklist of required metadata for synthetic records.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-09",
+    "label": "metadata",
+    "text": "Flag absent temperature units and instrument settings in metadata.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-10",
+    "label": "metadata",
+    "text": "Identify gaps in the dataset documentation fields.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-11",
+    "label": "metadata",
+    "text": "List unfilled metadata columns and missing run dates.",
+    "synthetic": true
+  },
+  {
+    "id": "train-metadata-12",
+    "label": "metadata",
+    "text": "Ask about absent acquisition settings and specimen context.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-01",
+    "label": "handoff",
+    "text": "Create a handoff plan for sharing synthetic files with a collaborator.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-02",
+    "label": "handoff",
+    "text": "Prepare instructions for the next analyst receiving this dataset.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-03",
+    "label": "handoff",
+    "text": "Draft a collaborator handover checklist and delivery steps.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-04",
+    "label": "handoff",
+    "text": "Organize a handoff note explaining the file package to a teammate.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-05",
+    "label": "handoff",
+    "text": "Plan the transfer of a synthetic dataset between collaborators.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-06",
+    "label": "handoff",
+    "text": "Write a delivery checklist for an analyst taking over this work.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-07",
+    "label": "handoff",
+    "text": "Prepare a readme for the receiving collaborator and review steps.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-08",
+    "label": "handoff",
+    "text": "Outline responsibilities for the next reviewer during handover.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-09",
+    "label": "handoff",
+    "text": "Create transfer instructions for a colleague receiving the package.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-10",
+    "label": "handoff",
+    "text": "Plan a documented handoff of the files to the research team.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-11",
+    "label": "handoff",
+    "text": "Explain the review sequence to the next collaborator.",
+    "synthetic": true
+  },
+  {
+    "id": "train-handoff-12",
+    "label": "handoff",
+    "text": "Prepare a handover brief and acceptance steps for delivery.",
+    "synthetic": true
+  }
+]

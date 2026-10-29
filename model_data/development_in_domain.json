@@ -1,0 +1,56 @@
+[
+  {
+    "id": "heldout-manifest-01",
+    "label": "manifest",
+    "text": "Our fictional study has specimen codes in one spreadsheet and CSV paths in another. Help assemble the sample inventory.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-manifest-02",
+    "label": "manifest",
+    "text": "Make a manifest for twenty dummy specimens, showing which file belongs to each sample.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-manifest-03",
+    "label": "manifest",
+    "text": "The archive needs an index pairing sample labels with their exported filenames.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-metadata-01",
+    "label": "metadata",
+    "text": "Some dummy runs have blank date and unit columns. Give me a metadata completeness checklist.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-metadata-02",
+    "label": "metadata",
+    "text": "Before review, I want to know which acquisition context fields are absent from these synthetic records.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-metadata-03",
+    "label": "metadata",
+    "text": "Please identify missing instrument identifiers and undocumented units in the metadata.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-handoff-01",
+    "label": "handoff",
+    "text": "A colleague takes over tomorrow; organize a handoff checklist for the synthetic file package.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-handoff-02",
+    "label": "handoff",
+    "text": "What should the next analyst receive in the handover note and delivery instructions?",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-handoff-03",
+    "label": "handoff",
+    "text": "Prepare a collaborator transfer plan with review responsibilities for this mock dataset.",
+    "synthetic": true
+  }
+]

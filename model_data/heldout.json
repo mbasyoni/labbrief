@@ -1,0 +1,56 @@
+[
+  {
+    "id": "heldout-01",
+    "label": "manifest",
+    "text": "For this mock archive, create a sample catalog associating specimen labels with saved CSV exports.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-02",
+    "label": "manifest",
+    "text": "We need a manifest showing a file location for every dummy sample identifier.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-03",
+    "label": "manifest",
+    "text": "Assemble an inventory so that each fictional specimen can be traced to a filename.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-04",
+    "label": "metadata",
+    "text": "Give us a missing-metadata checklist for synthetic runs with incomplete unit and date entries.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-05",
+    "label": "metadata",
+    "text": "Help review whether the mock records document acquisition settings and instrument labels.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-06",
+    "label": "metadata",
+    "text": "What context is absent when a synthetic dataset lacks units and run timestamps?",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-07",
+    "label": "handoff",
+    "text": "Draft the handoff plan for a colleague who will review our synthetic package next week.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-08",
+    "label": "handoff",
+    "text": "Make delivery instructions explaining responsibilities to a collaborator receiving the mock data.",
+    "synthetic": true
+  },
+  {
+    "id": "heldout-09",
+    "label": "handoff",
+    "text": "We need a handover checklist before transferring this fictional dataset to another analyst.",
+    "synthetic": true
+  }
+]
