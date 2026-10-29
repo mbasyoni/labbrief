@@ -2,7 +2,7 @@
 
 LabBrief turns a synthetic data-preparation request into a traceable intake brief: review exact request quotations, choose catalog deliverables, approve a fixed quote, and optionally test a PayPal Sandbox checkout before downloading the approved intake bundle.
 
-This is independent utility code for a bounded demonstration. It does not perform laboratory work, produce scientific findings, or support real-money payments. This candidate has not been published or deployed.
+This is independent utility code for a bounded demonstration. It does not perform laboratory work, produce scientific findings, or support real-money payments. At the candidate audit, this source had not yet been published. On 29 October 2026, this repository published the audited source, with a protective .gitignore and this publication-status update. Public application deployment is separate and has not been performed.
 
 ## Run locally
 
